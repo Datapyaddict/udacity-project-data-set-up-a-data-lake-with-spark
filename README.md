@@ -6,7 +6,7 @@
 3. [Prerequisite to scripts run](#pre-requisite)
 4. [Database modelling](#database-modelling)
 5. [How to run the scripts](#how-to-run-the-scripts)
-
+6. [Acknowledgement](#Acknowledgement)
 ***
 
 ### Project info
@@ -142,3 +142,10 @@ Open a terminal on local machine and run the following scripts.
 > 2. run `create_emr_and_run_etl.py` in order to create the EMR cluster. The master node will then run the etl pipeline and create the dimensional tables in s3. Afterwards, it self-terminates.
 > 3. run the jupyter notebook `Analytics queries.ipynb` to check the tables stored as parquet files in s3. 
 > 4. run `delete_s3_bucket.py` in order to empty the output s3 bucket and delete it. .
+
+## Acknowledgement
+
+[How to create a S3 bucket with python](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html#S3.Client.create_bucket)
+
+[How to create an EMR cluster with python](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/emr.html#EMR.Client.run_job_flow)
+
