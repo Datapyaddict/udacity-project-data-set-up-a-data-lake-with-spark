@@ -31,7 +31,7 @@ The purpose of this project is to build an ETL pipeline that extracts their data
 ***
 ### Prerequisite to scripts run
 
-* Create an AWS user with admin rights and use the credentials in the config file.
+* Create an AWS user with `AdministratorAccess` right and use the credentials in the config file.
 * Fill the config file dl.cfg. Information below are suggested.
     > [AWS]
     
